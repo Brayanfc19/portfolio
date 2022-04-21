@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brayan Farro Cachay</title>
+</head>
+
+<!-- Comienza el cuerpo de la página -->
+
+<body id="home">
+    <!-- Este es el navegador -->
+    <header class="container-nav" id="efect1">
+      <h2 >Portafolio</h2>
+      <div class="menu">
+        <a class="item" href='#home'>Inicio</a>
+        <a class="item" href='#about'>Acerca de</a>
+        <a class="item" href='#skills'>Skills</a>
+        <a class="item" href='#proyects'>Proyects</a>
+        <a class="item" href='#contact'>Contactame</a>
+      </div>
+      <i class="fa-solid fa-bars"></i>
+    </header>
+
+    <!-- Este es la priemra sección -->
+
+    <main class="container-main" >
+        <div class="content">
+            <h1 id="efect1" >¡Hola! soy <br/><span class="typed"></span></h1>
+            <p id="efect1" >Ing. de Software / Desarrollador Web</p>
+            <div id="efect1" class="buttons">
+                <a  href="files/Curriculum.pdf" target="_blank" >
+                  <i class="fa-solid fa-circle-down"></i>
+                  Descargar CV
+                </a>
+                <a  href="#contact" >
+                  <i class="fa-solid fa-message"></i>
+                  Contáctame
+                </a>
+            </div>
+        </div>
+        <div class="content-img"  >
+          <div id="efect1" class="image1"><img src="img/mockup1.svg" ></div>
+          <div id="efect1" class="image2"><img src="img/mockup2.svg" ></div>
+          <div id="efect1" class="image3"><img src="img/mockup4.svg" ></div>
+          <div id="efect1" class="image4"><img src="img/mockup5.svg" ></div>
+        </div>
+    </main>
+
+    <!-- Este es la priemra sección -->
+
+    <section class="container-about-me" id="about">
+        <h1>Acerca de mí</h1>
+        <div class="card">
+          <div >
+            <img id="efect1" src="img//developer.png" />
+          </div>
+          <p>Soy técnico en <a>Ing. de Software</a> con una gran gama de conocimientos a la vanguardía de la programación y base datos.
+            Mi deseo es poner en practica en la experiencia laboral y aplicar mis dones de liderazgo en empresas de tecnología.<br>
+            Si estas interesado trabajar conmigo para realizar proyectos magnificos, <a href='#contact'>contáctame</a>.
+          </p>
+        </div>
+        <div class="content-info">
+          <div>
+            <h3>Intereses</h3>
+            <p><i class="fa-solid fa-circle-check"></i> Viajar </p>
+            <p><i class="fa-solid fa-circle-check"></i> Deportes</p>
+            <p><i class="fa-solid fa-circle-check"></i> Crear contenido multimedia</p>
+          </div>
+          <div>
+            <h3>Idiomas</h3>
+            <p><i class="fa-solid fa-circle-check"></i> Español</p>
+            <p><i class="fa-solid fa-circle-check"></i> Ingles </p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Este es la sección de mis tecnologias y herramientas dominadas -->
+
+    <section class="container-skills" id="skills">
+      <h1>Tecnologias y Herramientas</h1>
+      <div class="content-skills">
+        <div>Python</div>
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>Sass</div>
+        <div>Bootstrap</div>
+        <div>Git</div>
+        <div>GitHub</div>
+        <div>Java Script</div>
+        <div>React JS</div>
+        <div>Next JS</div>
+        <div>React Native</div>
+        <div>Desing UI</div>
+        <div>Gsap JS</div>
+        <div>Frame Motion</div>
+        <div>Node JS</div>
+        <div>PHP</div>
+        <div>Visual Studio Code</div>
+        <div>Photoshop</div>
+        <div>Postgress SQL</div>
+      </div>
+    </section>
+
+
+    <section class="container-proyects" id="proyects">
+        <h1>Proyectos</h1>    
+        <div class="box-card">
+            <div class="card" id="efect1">
+                <img src="img/Captura.PNG" alt="calculator-image"/>
+                <div>
+                  <h3>Calculadora</h3>
+                  <p>Calculadora básica realizado con HTML y CSS</p>
+                  <div>
+                    <a href="https://github.com/Brayanfc19/calculator" target="_blank">Repositorio<i class="fa-brands fa-github"></i></a>
+                    <a href="https://brayanfc19.github.io/calculator/" target="_blank">Visitar<i class="fa-solid fa-square-up-right"></i></a>  
+                  </div>
+                </div>
+            </div>
+            <div class="card" id="efect1">
+                <img src="img/img2.PNG" width="300" alt="portafolio-image"/>
+                <div>
+                  <h3>Portafolio</h3>
+                  <p>Proyecto realizado con HTML, CSS, Java Script y algunas librerias de animaciones</p>
+                  <div>
+                    <a href="https://github.com/Brayanfc19/hoja-de-vida" target="_blank">Repositorio<i class="fa-brands fa-github"></i></a>
+                    <a href="https://brayanfc19.github.io/hoja-de-vida/">Visitar<i class="fa-solid fa-square-up-right"></i></a>  
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Este es contact sección -->
+
+
+    <section class="container-contact" id="contact">
+        <h1>Contáctame</h1>
+        <div class="card"> 
+            <form id="efect1" method="post">
+              <input type="text" placeholder="Nombre" minlength="4" maxlength="40" required>
+              <input type="email" placeholder="correo@mail.com" required>
+              <textarea  placeholder="Escribe el texto"minlength="4" maxlength="200" required ></textarea>
+              <button>Enviar</button>
+            </form>
+            <div class="container-Links">
+                  <a href="https://github.com/Brayanfc19" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    <p>Git</p> 
+                  </a>
+                  <a href="https://farrocachaybrayan@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Correo</p> 
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>  
+                    <p>Linkelin</p> 
+                  </a>
+                  <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p> 
+                  </a>
+            </div>
+        </div >
+    </section>
+
+    <!-- Este es footer -->
+
+    <footer class="container-footer" id="footer">
+        <span>Copyright &copy;2022, Hecho por <span> Brayan Farro</span> con un buen <span><i class="fa-solid fa-mug-hot"></i></span></span>
+        <span>Todos los Derechos Reservados</span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+<script src="./JS/script.js"></script>
+<script src="https://kit.fontawesome.com/da311506bc.js" crossorigin="anonymous"></script>
+</body>
+</html>
