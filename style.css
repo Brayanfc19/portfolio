@@ -286,7 +286,9 @@ html{
 .container-about-me .content-info > div{
     display: flex;
     flex-direction: column;
-    grid-gap: 5px;
+    grid-gap: 2px;
+    padding-left: 10px;
+    border-left: 2px solid var(--color5);
 }
 .container-about-me .content-info > div > h3{
     background: var(--background3);
@@ -426,7 +428,7 @@ html{
     align-items:flex-end ;
     background-color:var(--color1);
     position: relative;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     
@@ -549,5 +551,23 @@ html{
 @media screen and (max-width:600px) {
     .container-skills .content-skills{
         max-width: 90%;
+    }
+}
+.container-map iframe{
+    background: var(--background3);
+    padding: 5px;
+    margin: 5em 0;
+    height: 250px;
+    width: 410px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    box-shadow: 0px 10px 20px  #0005;
+}
+@media screen and (max-width:520px) {
+    .container-map iframe{
+        width: 90%;
     }
 }

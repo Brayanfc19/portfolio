@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="Sitio web de Brayan Farro Cachay realizado para describir mis conocimientos de progrmación">
+    <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Brayan Farro Cachay</title>
 </head>
@@ -13,7 +14,7 @@
 <body id="home">
     <!-- Este es el navegador -->
     <header class="container-nav" id="efect1">
-      <h2 >Portafolio</h2>
+      <h2 >Braysoft</h2>
       <div class="menu">
         <a class="item" href='#home'>Inicio</a>
         <a class="item" href='#about'>Acerca de</a>
@@ -24,14 +25,14 @@
       <i class="fa-solid fa-bars"></i>
     </header>
 
-    <!-- Este es la priemra sección -->
+    <!-- Este es la primera sección -->
 
     <main class="container-main" >
         <div class="content">
             <h1 id="efect1" >¡Hola! soy <br/><span class="typed"></span></h1>
             <p id="efect1" >Ing. de Software / Desarrollador Web</p>
             <div id="efect1" class="buttons">
-                <a  href="files/Curriculum.pdf" target="_blank" >
+                <a  href="files/resume.pdf" target="_blank" >
                   <i class="fa-solid fa-circle-down"></i>
                   Descargar CV
                 </a>
@@ -49,7 +50,7 @@
         </div>
     </main>
 
-    <!-- Este es la priemra sección -->
+    <!-- Este es la seccion acerca de mí -->
 
     <section class="container-about-me" id="about">
         <h1>Acerca de mí</h1>
@@ -58,7 +59,7 @@
             <img id="efect1" src="img//developer.png" />
           </div>
           <p>Soy técnico en <a>Ing. de Software</a> con una gran gama de conocimientos a la vanguardía de la programación y base datos.
-            Mi deseo es poner en practica en la experiencia laboral y aplicar mis dones de liderazgo en empresas de tecnología.<br>
+            Mi deseo es poner en practica mis conocimientos en la experiencia laboral y aplicar mis dones de liderazgo en empresas de tecnología.<br>
             Si estas interesado trabajar conmigo para realizar proyectos magnificos, <a href='#contact'>contáctame</a>.
           </p>
         </div>
@@ -67,12 +68,18 @@
             <h3>Intereses</h3>
             <p><i class="fa-solid fa-circle-check"></i> Viajar </p>
             <p><i class="fa-solid fa-circle-check"></i> Deportes</p>
-            <p><i class="fa-solid fa-circle-check"></i> Crear contenido multimedia</p>
+            <p><i class="fa-solid fa-circle-check"></i> Crear contenido </p>
           </div>
           <div>
             <h3>Idiomas</h3>
             <p><i class="fa-solid fa-circle-check"></i> Español</p>
             <p><i class="fa-solid fa-circle-check"></i> Ingles </p>
+          </div>
+          <div>
+            <h3>Educación</h3>
+            <p><i class="fa-solid fa-circle-check"></i> I.E. Santiago Burga Gonzales </p>
+            <p><i class="fa-solid fa-circle-check"></i> I.E. Diego Ferre Sosa </p>
+            <p><i class="fa-solid fa-circle-check"></i> Instituto Tecnologico SENATI</p>
           </div>
         </div>
     </section>
@@ -104,6 +111,7 @@
       </div>
     </section>
 
+    <!-- Este es la sección de mis proyectos realizados -->
 
     <section class="container-proyects" id="proyects">
         <h1>Proyectos</h1>    
@@ -133,49 +141,55 @@
         </div>
     </section>
 
-    <!-- Este es contact sección -->
+    <!-- Este es la sección de contactos -->
 
 
     <section class="container-contact" id="contact">
         <h1>Contáctame</h1>
+        
         <div class="card"> 
-            <form id="efect1" method="post">
-              <input type="text" placeholder="Nombre" minlength="4" maxlength="40" required>
-              <input type="email" placeholder="correo@mail.com" required>
-              <textarea  placeholder="Escribe el texto"minlength="4" maxlength="200" required ></textarea>
+          <div class="container-map" >
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31688.854659617165!2d-79.8702547130989!3d-6.877802533734304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904ce44593863cb5%3A0x1bd45d5156f22647!2sMonsef%C3%BA%2014831!5e0!3m2!1ses-419!2spe!4v1650580527014!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div><br>
+            <form id="efect1" name="contact" netlify>
+              <input type="text" placeholder="Nombre" minlength="4" maxlength="40" required name="nombre">
+              <input type="email" placeholder="correo@mail.com" required name="email">
+              <textarea  placeholder="Escribe el texto"minlength="4" maxlength="200" required name="mensaje"></textarea>
               <button>Enviar</button>
             </form>
+
             <div class="container-Links">
+                  <a href="https://www.linkedin.com/in/brayan-farro-cachay-14a79a238/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>  
+                    <p>LinkedIn</p> 
+                  </a>
                   <a href="https://github.com/Brayanfc19" target="_blank">
                     <i class="fa-brands fa-github"></i>
                     <p>Git</p> 
                   </a>
-                  <a href="https://farrocachaybrayan@gmail.com" target="_blank">
+                  <a href="mailto:farrocachay@gmail.com?" target="_blank">
                     <i class="fa-solid fa-envelope"></i>
                     <p>Correo</p> 
                   </a>
-                  <a href="#">
-                    <i class="fa-brands fa-linkedin"></i>  
-                    <p>Linkelin</p> 
-                  </a>
-                  <a href="">
-                    <i class="fa-brands fa-instagram"></i>
-                    <p>Instagram</p> 
-                  </a>
+
             </div>
         </div >
     </section>
 
-    <!-- Este es footer -->
+    <!-- Este es el footer -->
 
     <footer class="container-footer" id="footer">
         <span>Copyright &copy;2022, Hecho por <span> Brayan Farro</span> con un buen <span><i class="fa-solid fa-mug-hot"></i></span></span>
         <span>Todos los Derechos Reservados</span>
     </footer>
 
+    <!-- librerias /  JQuery / Ajax -->
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
-<script src="./JS/script.js"></script>
-<script src="https://kit.fontawesome.com/da311506bc.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="./JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/da311506bc.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
+<link rel="stylesheet" href="admin.css">
 </html>
